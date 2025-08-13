@@ -51,6 +51,9 @@
     "build:preview": "yarn build && vite preview --port 5000"
   },
   "devDependencies": {
+    "electron": "37.2.4",
+    "electron-builder": "26.0.12",
+    "electron-is-dev": "3.0.1",
     "vite-plugin-sitemap": "0.7.1"
   }
 }

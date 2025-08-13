@@ -96,7 +96,7 @@ const Center = ({ children }: { children?: React.ReactNode }) => {
         {children || (
           <>
             <Logo />
-            <Heading>{t("welcomeScreen.defaults.center_heading")}</Heading>
+            <Heading>Feeling thinky? Pick a tool & get inky!</Heading>
             <Menu>
               <MenuItemLoadScene />
               <MenuItemHelp />
@@ -112,7 +112,7 @@ Center.displayName = "Center";
 const Logo = ({ children }: { children?: React.ReactNode }) => {
   return (
     <div className="welcome-screen-center__logo excalifont welcome-screen-decor">
-      {children || <ExcalidrawLogo withText />}
+      {children || <div className="itti-logo">ifthinkytheninky</div>}
     </div>
   );
 };

@@ -141,9 +141,13 @@ import type { CollabAPI } from "./collab/Collab";
 
 polyfill();
 
-window.EXCALIDRAW_THROTTLE_RENDER = true;
+window.ITTI_THROTTLE_RENDER = true;
 
 declare global {
+  interface Window {
+    __ITTI_SHA__: string;
+    ITTI_THROTTLE_RENDER: boolean;
+  }
   interface BeforeInstallPromptEventChoiceResult {
     outcome: "accepted" | "dismissed";
   }
@@ -800,7 +804,7 @@ const ExcalidrawWrapper = () => {
   return (
     <div
       style={{ height: "100%" }}
-      className={clsx("excalidraw-app", {
+      className={clsx("itti-app", {
         "is-collaborating": isCollaborating,
       })}
     >

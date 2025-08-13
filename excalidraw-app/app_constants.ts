@@ -36,15 +36,14 @@ export const FIREBASE_STORAGE_PREFIXES = {
 export const ROOM_ID_BYTES = 10;
 
 export const STORAGE_KEYS = {
-  LOCAL_STORAGE_ELEMENTS: "excalidraw",
-  LOCAL_STORAGE_APP_STATE: "excalidraw-state",
-  LOCAL_STORAGE_COLLAB: "excalidraw-collab",
-  LOCAL_STORAGE_THEME: "excalidraw-theme",
-  LOCAL_STORAGE_DEBUG: "excalidraw-debug",
+  LOCAL_STORAGE_ELEMENTS: "ifthinkytheninky",
+  LOCAL_STORAGE_APP_STATE: "ifthinkytheninky-state",
+  LOCAL_STORAGE_COLLAB: "ifthinkytheninky-collab",
+  LOCAL_STORAGE_THEME: "ifthinkytheninky-theme",
+  LOCAL_STORAGE_DEBUG: "ifthinkytheninky-debug",
   VERSION_DATA_STATE: "version-dataState",
   VERSION_FILES: "version-files",
-
-  IDB_LIBRARY: "excalidraw-library",
+  IDB_LIBRARY: "ifthinkytheninky-library",
 
   // do not use apart from migrations
   __LEGACY_LOCAL_STORAGE_LIBRARY: "excalidraw-library",
